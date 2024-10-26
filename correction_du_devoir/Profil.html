@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Personnelle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mon Nom</h1>
+    </header>
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Je suis Conde Ibrahima kalil, etudiant en 3e année d'informatique et réseau à l'EMSI des Orangers.</p>
+        <img src="photo/téléchargement.jpg" alt="Exemple de photo" width="200">
+    </section>
+    <section id="hobbies">
+        <h2>Hobbies et Objectifs</h2>
+        <h3>Mes hobbies ou Loisires</h3>
+        <ul>
+            <li>lecture</li>
+            <li>voyage</li>
+            <li>sport</li>
+        </ul>
+        <h3>Mes objectifs pour cette année</h3>
+        <ol>
+            <li>lire(20 books/an)</li>
+            <li>Reussite Scolaire</li>
+            <li>La famille</li>
+        </ol>
+    </section>
+    <section id="friends">
+        <h2>Tableau d'Amis</h2>
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Âge</th>
+                <th>Ville</th>
+                <th>Profil</th>
+            </tr>
+            <tr>
+                <td>kalil</td>
+                <td>25</td>
+                <td>casablanca</td>
+                <td><a href="#">Voir Profil</a></td>
+            </tr>
+            <tr>
+                <td>khalil</td>
+                <td>30</td>
+                <td>rabat</td>
+                <td><a href="#">Voir Profil</a></td>
+            </tr>
+            <tr>
+                <td>lilka</td>
+                <td>28</td>
+                <td>settat</td>
+                <td><a href="#">Voir Profil</a></td>
+            </tr>
+        </table>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" rows="4" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
